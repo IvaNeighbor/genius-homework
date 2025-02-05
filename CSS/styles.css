@@ -457,6 +457,7 @@ address {
 }
 
 .contact-map {
+  height: 505px;
   flex-shrink: 0;
   border: none;
   border-radius: 32px;
