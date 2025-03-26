@@ -1,0 +1,35 @@
+.hero-section {
+  min-height: 90vh;
+  background-image: url("../images/hero-section-background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 122px 0 194px;
+
+  &__text {
+    line-height: 1.17;
+    text-align: start;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-family: Play, sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.81;
+    text-transform: capitalize;
+    color: var(--color-brand-light);
+    text-align: start;
+    width: 529px;
+    margin-bottom: 40px;
+  }
+
+  &__underbutton-text {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--color-rare-dark);
+    width: 238px;
+    margin-bottom: 0;
+  }
+}

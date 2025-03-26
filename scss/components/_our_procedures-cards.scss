@@ -1,0 +1,35 @@
+.our_procedures-cards {
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 450px;
+    background: linear-gradient(
+      180deg,
+      rgba(1, 28, 68, 0) 47.4%,
+      rgba(1, 28, 68, 0.73) 82.66%,
+      var(--color-brand-dark) 99.06%
+    );
+    border-radius: 4px 120px;
+  }
+
+  &__image {
+    position: absolute;
+    border-radius: 4px 120px;
+    z-index: -1;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.18;
+    color: var(--color-primary-light);
+  }
+}

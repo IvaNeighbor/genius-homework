@@ -1,0 +1,34 @@
+.contacts-section {
+  padding-bottom: 96px;
+
+  &__container {
+    display: flex;
+    padding: 0 92px 0 64px;
+    gap: 32px;
+  }
+
+  &__map {
+    height: 505px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 32px;
+  }
+
+  &__form {
+    background-color: var(--color-brand-dark);
+    background-image: url("../images/contact-form-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 32px;
+    padding: 48px 56px;
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.18;
+    color: var(--color-primary-light);
+  }
+}

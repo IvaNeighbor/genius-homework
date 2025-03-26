@@ -1,0 +1,59 @@
+.header {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 32px 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 230px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 230px;
+    flex-grow: 1;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  &__address {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+
+  &__link {
+    color: var(--color-brand-dark);
+    line-height: 1.17;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  &__link:hover {
+    color: var(--color-brand-light);
+  }
+
+  &__address-social {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__address-icon {
+    fill: var(--color-brand-dark);
+    transition: fill 0.2s;
+  }
+
+  &__address-icon:hover {
+    fill: var(--color-primary-light);
+  }
+}

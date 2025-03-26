@@ -1,0 +1,11 @@
+.our_procedures-section {
+  &__slider {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+}

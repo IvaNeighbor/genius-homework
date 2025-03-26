@@ -1,0 +1,89 @@
+.footer {
+  position: relative;
+  background-color: var(--color-brand-dark);
+  background-image: url("../images/footer-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 56px 100px;
+
+  &::after {
+    position: absolute;
+    width: 246px;
+    height: 152px;
+    background-image: url("../images/jars_pipettes.png");
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    content: "";
+  }
+
+  &__container {
+    display: flex;
+    gap: 186px;
+  }
+
+  &__nav,
+  &__address {
+    display: flex;
+    flex-basis: 50%;
+    gap: 112px;
+  }
+
+  &__address-list,
+  &__address-info {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  &__logo,
+  &__menu {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  &__link {
+    color: var(--color-primary-light);
+    line-height: 1.19;
+    text-decoration: none;
+    transition: color 0.2s, font-weight 0.2s;
+    margin-bottom: 16px;
+  }
+
+  &__link:hover {
+    font-weight: 700;
+    color: var(--color-brand-light);
+  }
+
+  &__address-link {
+    font-size: 16px;
+    color: var(--color-primary-light);
+    text-decoration: none;
+    transition: color 0.2s;
+    margin-bottom: 16px;
+  }
+
+  &__address-link:hover {
+    color: var(--color-brand-light);
+  }
+
+  &__address-social {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__address-icon {
+    fill: var(--color-primary-light);
+    transition: fill 0.2s;
+  }
+
+  &__address-icon:hover {
+    fill: var(--color-brand-light);
+  }
+
+  &__data-protect {
+    font-size: 13px;
+    color: var(--color-rare-light);
+    line-height: 1.15;
+  }
+}

@@ -1,0 +1,42 @@
+.why_us-section {
+  position: relative;
+  padding-top: 88px;
+
+  &__image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -88px;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__list {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 56px;
+    padding: 0 78px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 112px) / 3);
+  }
+
+  &__card {
+    box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+    background: #fff;
+    border-radius: 32px;
+    padding: 24px 32px;
+  }
+
+  &__icon {
+    fill: var(--color-brand-light);
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    margin: 0;
+    height: 72px;
+  }
+}
