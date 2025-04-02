@@ -13,7 +13,10 @@ const swiper = new Swiper('.swiper-container', {
     }
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '.pagination',
+    bulletClass: 'pagination__button',
+    bulletActiveClass: 'pagination__button--active',
+    // dynamicMainBullets: 3,
   },
   navigation: {
     nextEl: '.carousel-button.next',

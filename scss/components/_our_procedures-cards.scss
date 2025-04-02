@@ -7,10 +7,11 @@
 
   &__container {
     position: relative;
+    margin: 0px 8px 12px 8px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 450px;
+    height: 456px;
     background: linear-gradient(
       180deg,
       rgba(1, 28, 68, 0) 47.4%,
