@@ -1,14 +1,23 @@
 .section {
-  padding: 48px 0;
+  padding: 20px 0;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 48px 0;
+  }
 
   &__title {
-    font-family: Play, sans-serif;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 1.16;
-    text-align: start;
-    width: 529px;
-    margin-bottom: 48px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-family: Play, sans-serif;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 1.16;
+      text-align: start;
+      margin-bottom: 48px;
+    }
 
     &--centered {
       text-align: center;

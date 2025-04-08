@@ -1,25 +1,25 @@
-const swiper = new Swiper('.swiper-container', {
-    loop: true,
-    slidesPerView: "auto", // Дозволяє адаптивний розмір
-    centeredSlides: true, // Вирівнює активний слайд по центру
-    slidesPerView: 1,
-    spaceBetween: 16,
-    breakpoints: {
+const swiper = new Swiper(".swiper-container", {
+  loop: true,
+  slidesPerView: "auto",
+  centeredSlides: true,
+  slidesPerView: 1,
+  spaceBetween: 16,
+  breakpoints: {
     768: {
       slidesPerView: 2,
     },
     1280: {
       slidesPerView: 3,
-    }
+    },
   },
   pagination: {
-    el: '.pagination',
-    bulletClass: 'pagination__button',
-    bulletActiveClass: 'pagination__button--active',
-    // dynamicMainBullets: 3,
+    el: ".pagination",
+    bulletClass: "pagination__button",
+    bulletActiveClass: "pagination__button--active",
+    dynamicBullets: true,
   },
   navigation: {
-    nextEl: '.carousel-button.next',
-    prevEl: '.carousel-button.prev',
+    nextEl: ".carousel-button.next",
+    prevEl: ".carousel-button.prev",
   },
 });

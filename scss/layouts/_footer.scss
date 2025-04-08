@@ -46,12 +46,11 @@
     color: var(--color-primary-light);
     line-height: 1.19;
     text-decoration: none;
-    transition: color 0.2s, font-weight 0.2s;
+    transition: color 0.2s;
     margin-bottom: 16px;
   }
 
   &__link:hover {
-    font-weight: 700;
     color: var(--color-brand-light);
   }
 
